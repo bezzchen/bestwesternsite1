@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Best Western </title>
+        <link rel="icon"  href="./client/images/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="./client/css.css">
+    </head>
+    <body>
+        <div id="topvideo">
+            <div id="title">
+                BEST WESTERN <br> NEWMARKET
+            </div>
+            <video autoplay muted loop>
+                <source src="./client/images/whitemaison.mp4" type="video/mp4" >
+            </video>
+        </div>
+        <div id="mobilebar">
+            <div style="position: fixed;align-items: center; justify-content: center; display: inline-flex; width: 100%;">
+                <img src="./client/images/Best_Western_Logo_Horizontal-white.png" id="logomobile">
+            </div>
+            <a onclick="opennav()">
+                <img src="./client/images/3lineswhite.png" id="threelines">
+            </a>
+        </div>
+        <div class="showmobile" id="sidenav">
+            <a onclick="closenav()" style="position: absolute; top: 0; right: 25px; margin-left: 50px;">
+                <img src="./client/images/cross.png" style="width: 30px; height: 30px;">
+            </a>
+            <a href="/" style="color: #072343;">
+                BEST WESTERN
+            </a>
+            <a href="/ourrooms">
+                OUR ROOMS
+            </a>
+            <a href="/newmarketlocation">
+                LOCATION
+            </a>
+            <a href="/hotelfacilities">
+                BREAKFAST
+            </a>
+            <a href="/events">
+                CONFERENCE
+            </a>
+            <a href="/contact">
+                CONTACT
+            </a>
+        </div>
+        <div id="topBar" class="hidemobile">
+            <a style="width: 16%;">
+                <img id="topimage" src="./client/images/Best_Western_Logo_Horizontal-white.png" style="width: 250px; padding: 10px;">
+            </a>
+            <a href="/" style="color: rgb(150, 150, 150);" id="currentpage">
+                BEST WESTERN
+            </a>
+            <a href="/ourrooms">
+                OUR ROOMS
+            </a>
+            <a href="/newmarketlocation">
+                LOCATION
+            </a>
+            <a href="/hotelfacilities">
+                BREAKFAST
+            </a>
+            <a href="/events">
+                CONFERENCE
+            </a>
+            <a href="/contact">
+                CONTACT
+            </a>
+            <a href="https://www.bestwestern.com/en_US/book/auckland/hotel-rooms/best-western-newmarket-inn-suites/propertyCode.85460.html?ssob=IN8546043G&cid=IN8546043G:iws:85460:rooms" class="special-link" id="book">
+                BOOK
+            </a>
+        </div>
+        <a href="https://www.bestwestern.com/en_US/book/auckland/hotel-rooms/best-western-newmarket-inn-suites/propertyCode.85460.html?ssob=IN8546043G&cid=IN8546043G:iws:85460:rooms" class="showmobile" style="color: black; text-decoration: none; position: fixed; bottom: 0; width: 100%; background-color: #072343; z-index: 4; text-align: center; font-size: 30px; padding-top: 12px; padding-bottom: 12px; color: white;">
+            BOOK
+        </a>
+        <div id="notimage">
+            <div id="totaltitle">
+                <div id="subtitle">
+                    IN THE HEART OF NEWMARKET <br>
+                </div>
+            </div>
+            <div id="discription" class="mobiletext">
+                BEST WESTERN Newmarket Inn & Suites is located in the heart of Auckland’s top 
+                Education, Medical and Business Centre.  Just 5km from the CBD, and 800m from 
+                the popular Newmarket Shopping district making it the perfect accommodation 
+                option for your trip to Auckland. <br><br>
+
+                BEST WESTERN Newmarket Inn & Suites is a 4 star Qualmark hotel, and offers 
+                spacious rooms with free WiFi and large flat screen TV’s with free cable channels.  
+                All guests enjoy free on-site parking, and with our outdoor pool and 
+                entertainment area it is the obvious choice for quality accommodation at 
+                an affordable price for your next stay. <br><br>
+
+                Accommodation options include spacious studios, suites and apartments.  
+                All rooms have built in head pumps and either a full kitchen or kitchenette.  
+                Ideal for individuals, couples or group accommodation. <br><br>
+
+                Looking for a venue for your next Conference or Function?  
+                Look no further than BEST WESTERN Newmarket Inn & Suites.  With our onsite 
+                conference room,  offering state of the art equipment we would love to help
+                you organize your event, and can offer you exclusive accommodation rates for 
+                your delegates.  Full catering is available through our restaurant, so feel 
+                free to talk to us about your requirements. <br><br>
+
+                We speak your language at BEST WESTERN Newmarket Inn & Suites, and look 
+                forward to welcoming you soon.
+
+
+            </div>
+            <div style="width: 100%; background-color: rgb(0,0,0,0.1);padding-top: 100px; padding-bottom: 100px;" class="hidemobile">
+                <div style="font-family: 'montserrat'; text-align: center; font-size: 60px;">
+                    <b>DISCOVER OUR MOTEL</b>
+                </div>
+                <div style="position: relative; height: 600px; width: 80%; margin-top: 5%; margin-left: 10%; margin-right: 10%; margin-bottom: 5%;">
+                    <div class="discoverimage" id="discoverimageoverlay1" style="float: right; position:inherit;">
+                        <a href="/hotelfacilities" id="veil1">
+                            <div class="discoverimagetext"> 
+                                <div id="moreinfo1">
+                                    &nbsp &nbsp MORE INFO
+                                </div>
+                            </div>
+                        </a>
+                        <img id="discoverimage1" class="discoverimage" src="./client/images/0.jpg">
+                        <div id="ourrooms1">
+                            <B>FACILITIES<br>
+                        </div>
+                    </div>
+                    <div class="discoverimage" id="discoverimageoverlay1">
+                        <a href="/ourrooms" id="veil1">
+                            <div class="discoverimagetext"> 
+                                <div id="moreinfo1">
+                                    &nbsp &nbsp MORE INFO
+                                </div>
+                            </div>
+                        </a>
+                        <img id="discoverimage1" class="discoverimage" src="./client/images/1.jpg">
+                        <div id="ourrooms1">
+                            <B>OUR ROOMS</B>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%; background-color: rgb(0,0,0,0.1);padding-top: 100px; padding-bottom: 100px;" class="showmobile">
+                <div style="font-family: 'montserrat'; text-align: center; font-size: 40px;">
+                    <b>DISCOVER OUR MOTEL</b>
+                </div>
+                <a style="position: relative; width: 250px; height: 250px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
+                    <div style="width: 250px; height: 250px; background-color: rgb(0,0,0,0.3); position: absolute;">
+                    </div>
+                    <img src="./client/images/0.jpg" style="width: 250px; height: 250px; object-fit: cover;">
+                    <div style="position: absolute; left: 50%; top:50%; transform: translate(-50%, -50%); font-size: 20px;">
+                        <B>FACILITIES<br>
+                    </div>
+                </a>
+                <a style="position: relative; width: 250px; height: 250px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
+                    <div style="width: 250px; height: 250px; background-color: rgb(0,0,0,0.3); position: absolute;">
+                    </div>
+                    <img src="./client/images/1.jpg" style="width: 250px; height: 250px; object-fit: cover;">
+                    <div style="width: 133px; position: absolute; left: 50%; top:50%; transform: translate(-50%, -50%); font-size: 20px;">
+                        <B>OUR ROOMS<br>
+                    </div>
+                </a>
+            </div>
+            <div style="font-family: 'montserrat'; text-align: center; margin-top: 10vmin;" id="foldlocation">
+                <b>LOCATION</b>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.418288610945!2d174.78094857584205!3d-36.880340472224376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d487d2a0a8b45%3A0x2374070dd2b30e56!2sBest%20Western%20Newmarket%20Inn%20%26%20Suites!5e0!3m2!1sen!2snz!4v1705992405242!5m2!1sen!2snz" width="100%" height="650" style="border:0; margin-top: 10vmin; margin-bottom: 10vim;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div style="text-align: center; line-height: 20px; padding-left: 12%; padding-right: 12%; padding-top: 5%; padding-bottom: 5%; font-weight: 600; background-color: rgb(0,0,0,0.1); margin-top: 10%; margin-bottom: 30px; font-size: 12px;">
+                Hotel Alert: <br>
+                <div style="font-weight: 500;">
+                    To provide a safe environment for everyone as per the ministry of Health guidelines, if you are feeling sick or have any symptoms of Covid19, including loss of smell, sore throat, shortness of breathing or close contact of confirmed Covid19 case, waiting on Covid19 test results or have visited the location of interest as per MOH website, please contact the hotel prior to your arrival to confirm check-in process. Thank you for your assistance. <br> 
+                    This property is taking steps to help protect the safety of guests and staff. All employees onsite have been fully vaccinated. <br>
+                    
+                    2% percent credit card fee. <br>
+                    
+                    Hotel parking is subject to availablity. <br>
+                    
+                    “Tampering with the smoke detectors or fire alarm system may cause a fire alarm activation and will result in a call out service charge of $250.00 +GST <br>
+                    and fire department service charge of $1000.00 + GST.  Please contact our front office before taking action by yourself if anything you are unsure of. ” <br> <br>
+
+                    Guests are required to show a photo ID and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply. <br> 
+
+                    A damage deposit of NZD 200 is required on arrival. This will be collected as a cash payment. You should be reimbursed on check-out. Your deposit will be refunded in full, in cash, subject to an inspection of the property.
+                </div>
+            </div>
+            <div class="mobiletext" style="color: white; text-align: center; background-color: #072343 ; line-height: 40px; padding: 20px;">
+                <B>Best Western</B> <br>
+                <div style="font-weight: 500;">112 Great South Road, Epsom, Auckland 1051, New Zealand <br></div>
+                <b> Freephone (NZ only) </b> <br>
+                <div style="font-weight: 500;">0508 899 699<br></div>
+                <b> Internationally </b> <br>
+                <div style="font-weight: 500;">+64 9520 5509<br>
+                <b> mobile </b> <br>
+                <div style="font-weight: 500;">+6421 198 9696<br>
+                <b> Email </b> <br>
+                <div style="font-weight: 500;">info@abf.net.nz<br>
+                Office hours:  Monday - Friday &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 7.30am - 10pm <br>
+                Saturday, Sunday & Public Holidays &nbsp &nbsp &nbsp 8am - 9pm <br>
+                Afterhours: Please contact the hotel directly <br>  </div>
+                <img src="./client/images/americanexpress.png" width="80px" style="padding: 10px;">
+                <img src="./client/images/visa.png" width="100px" style="padding: 10px;">
+                <img src="./client/images/mastercard.png" width="100px" style="padding: 10px;">
+                <img src="./client/images/freewifi.png" width="100px" style="padding: 10px;">
+                <img src="./client/images/sky.png" width="100px" style="padding: 10px;">
+                <img src="./client/images/dinersclub.png" width="100px" style="padding: 10px;">
+            </div>
+        </div>
+    </body>
+    <script src="./client/javascript.js"></script>
+</html> 

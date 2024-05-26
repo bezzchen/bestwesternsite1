@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Best Western </title>
+        <link rel="icon"  href="./client/images/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="./client/css.css">
+    </head>
+    <body>
+        <div id="topvideo">
+            <div id="title">
+                BEST WESTERN <br> NEWMARKET
+            </div>
+            <div id="topimageothers">
+                <img id="0img0" src="./client/images/0.jpg" draggable="false" style="opacity: 1; ">
+                <img id="0img1" src="./client/images/1.jpg" draggable="false">
+                <img id="0img2" src="./client/images/2.jpg" draggable="false">
+                <img id="0img3" src="./client/images/3.jpg" draggable="false">
+                <img id="0img4" src="./client/images/4.jpg" draggable="false">
+                <img id="0img5" src="./client/images/5.jpg" draggable="false">
+                <img id="0img6" src="./client/images/6.jpg" draggable="false">
+                <img id="0img7" src="./client/images/7.jpg" draggable="false">
+            </div>
+            <a onclick="leftarrow(0,7)">
+                <img class="arrow" src="./client/images/leftarrow.png">
+            </a>
+            <a onclick="rightarrow(0,7)">
+                <img class="arrow" style="right:0 ;" src="./client/images/rightarrow.png">
+            </a>
+        </div>
+        <div id="mobilebar">
+            <div style="position: fixed;align-items: center; justify-content: center; display: inline-flex; width: 100%;">
+                <img src="./client/images/Best_Western_Logo_Horizontal-white.png" id="logomobile">
+            </div>
+            <a onclick="opennav()">
+                <img src="./client/images/3lineswhite.png" id="threelines">
+            </a>
+        </div>
+        <div class="showmobile" id="sidenav">
+            <a onclick="closenav()" style="position: absolute; top: 0; right: 25px; margin-left: 50px;">
+                <img src="./client/images/cross.png" style="width: 30px; height: 30px;">
+            </a>
+            <a href="/">
+                BEST WESTERN
+            </a>
+            <a href="/ourrooms" style="color: #072343;">
+                OUR ROOMS
+            </a>
+            <a href="/newmarketlocation">
+                LOCATION
+            </a>
+            <a href="/hotelfacilities">
+                BREAKFAST
+            </a>
+            <a href="/events">
+                CONFERENCE
+            </a>
+            <a href="/contact">
+                CONTACT
+            </a>
+        </div>
+        <div id="topBar" class="hidemobile">
+            <a style="width: 16%;">
+                <img id="topimage" src="./client/images/Best_Western_Logo_Horizontal-white.png" style="width: 250px; padding: 10px;">
+            </a>
+            <a href="/">
+                BEST WESTERN
+            </a>
+            <a href="/ourrooms" style="color: rgb(150, 150, 150);" id="currentpage">
+                OUR ROOMS
+            </a>
+            <a href="/newmarketlocation">
+                LOCATION
+            </a>
+            <a href="/hotelfacilities">
+                BREAKFAST
+            </a>
+            <a href="/events">
+                CONFERENCE
+            </a>
+            <a href="/contact">
+                CONTACT
+            </a>
+            <a href="https://www.bestwestern.com/en_US/book/auckland/hotel-rooms/best-western-newmarket-inn-suites/propertyCode.85460.html?ssob=IN8546043G&cid=IN8546043G:iws:85460:rooms" class="special-link" id="book">
+                BOOK
+            </a>
+        </div>
+        <a href="https://www.bestwestern.com/en_US/book/auckland/hotel-rooms/best-western-newmarket-inn-suites/propertyCode.85460.html?ssob=IN8546043G&cid=IN8546043G:iws:85460:rooms" class="showmobile" style="color: black; text-decoration: none; position: fixed; bottom: 0; width: 100%; background-color: #072343; z-index: 4; text-align: center; font-size: 30px; padding-top: 12px; padding-bottom: 12px; color: white;">
+            BOOK
+        </a>
+        <div id="notimage">
+            <div id="totaltitle">
+                <div id="title">
+                    OUR ROOMS <br> 
+                </div>
+                <div id="subtitle">
+                    COZY AND COMFORTABLE ACCOMMODATION<br>
+                </div>
+            </div>
+            <div id="discription">
+                All our Super king beds split into singles. Please let us know if you would prefer single beds for your stay.       
+            </div>
+            <div style="font-size: 50px; text-align: center; padding-bottom: 80px;">
+                <b>Superior King</b>
+            </div>
+            <div id="singleroom">
+                <div id="singleroomimg">
+                    <a onclick="leftarrow(2,5)">
+                        <img src="./client/images/leftarrow.png">
+                    </a>
+                    <a style="left: 795px;" onclick="rightarrow(2,5)">
+                        <img src="./client/images/rightarrow.png">
+                    </a>
+                    <img id="2img0" src="./client/images/superiorking1.jpg" draggable="false" style="opacity: 1;">
+                    <img id="2img1" src="./client/images/superiorking2.jpg" draggable="false">
+                    <img id="2img2" src="./client/images/superiorking3.jpg" draggable="false">
+                    <img id="2img3" src="./client/images/superiorking4.jpg" draggable="false">
+                    <img id="2img4" src="./client/images/superiorking5.jpg" draggable="false">
+                    <img id="2img5" src="./client/images/superiorking6.jpg" draggable="false">
+                    <div style="position: absolute; left: 920px; width: 300px;" class="mobiletext">
+                        <b>BRAND NEW 2023</b> FREE Wi-Fi, free parking, couch, cable/ SKY TV + air-con/heat pump. Balcony, fresh air, Top hotel-class super king Plush mattress. Kitchenette, luxurious tiled bathroom, plunger coffee maker. Sleeps 1-2 comfortably.
+                    </div>
+                    <div style="position:absolute; left:1250px;" class="mobiletext">
+                        <b>AMENITIES</b> <br>
+                        Desk <br>
+                        Room Service <br>
+                        Air Conditioning <br>
+                        Shower <br>
+                        Microwave <br>
+                        Toaster <br>
+                        Free International Power Adaptor <br>
+                        Non-Smoking <br>
+                        Complimentary tea and coffee <br>
+                        Super King Bed <br>
+                        Fridge - Bar Fridge <br>
+                        Cable/Satellite/Smart TV <br>
+                        Linen and Towels Provided <br>
+                        Kitchenette <br> 
+                        Iron/Ironing board <br>
+                        Telephone <br>
+                        Hairdryer <br>
+                        Free Wi-Fi <br>
+                        Tiled Bathroom <br>
+                        Double Glazing <br>
+
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: 50px; text-align: center; padding-bottom: 80px;">
+                <b>Executive King</b>
+            </div>
+            <div id="singleroom">
+                <div id="singleroomimg">
+                    <a onclick="leftarrow(3,5)">
+                        <img src="./client/images/leftarrow.png">
+                    </a>
+                    <a style="left: 795px;" onclick="rightarrow(3,5)">
+                        <img src="./client/images/rightarrow.png">
+                    </a>
+                    <img id="3img0" src="./client/images/executiveKing1.jpg" draggable="false" style="opacity: 1;">
+                    <img id="3img1" src="./client/images/executiveKing2.jpg" draggable="false">
+                    <img id="3img2" src="./client/images/executiveKing3.jpg" draggable="false">
+                    <img id="3img3" src="./client/images/executiveKing4.jpg" draggable="false">
+                    <img id="3img4" src="./client/images/executiveKing5.jpg" draggable="false">
+                    <img id="3img5" src="./client/images/executiveKing6.jpg" draggable="false">
+                    <div style="position: absolute; left: 920px; width: 300px;" class="mobiletext">
+                        Fresh air, warm and sunny. Free Wi-Fi, free parking, couch, cable/SKY TV + air-con/heat pump. Top hotel-class super king Plush mattress. Kitchenette, luxurious tiled bathroom. Working desk. Sleeps 2
+                    </div>
+                    <div style="position:absolute; left:1250px;" class="mobiletext">
+                        <b>AMENITIES</b> <br>
+                        Desk <br>
+                        Room Service <br>
+                        Air Conditioning <br>
+                        Microwave <br>
+                        Toaster <br>
+                        Free International Power Adaptor <br>
+                        Non-Smoking <br>
+                        Super King Bed <br>
+                        Fridge - Bar Fridge <br>
+                        Cable/Satellite/Sky TV <br>
+                        Linen and Towels Provided <br>
+                        Kitchenette <br>
+                        Iron/Ironing board <br>
+                        Telephone <br>
+                        Hairdryer <br>
+                        Tea/Coffee making facilities <br>
+                        Free Wi-Fi <br>
+                        Shower - some with bath <br>
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: 50px; text-align: center; padding-bottom: 80px;">
+                <b>Executive Triple</b>
+            </div>
+            <div id="singleroom">
+                <div id="singleroomimg">
+                    <a onclick="leftarrow(4,4)">
+                        <img src="./client/images/leftarrow.png">
+                    </a>
+                    <a style="left: 795px;" onclick="rightarrow(4,4)">
+                        <img src="./client/images/rightarrow.png">
+                    </a>
+                    <img id="4img0" src="./client/images/executivetriple1.jpg" draggable="false" style="opacity: 1;">
+                    <img id="4img1" src="./client/images/executivetriple2.jpg" draggable="false">
+                    <img id="4img2" src="./client/images/executivetriple3.jpg" draggable="false">
+                    <img id="4img3" src="./client/images/executivetriple4.jpg" draggable="false">
+                    <img id="4img4" src="./client/images/executivetriple5.jpg" draggable="false">
+                    <div style="position: absolute; left: 920px; width: 300px;" class="mobiletext">
+                        Free Wi-Fi, free parking, cable/SKY TV + air-con/heat pump. Top hotel-class super king Plush mattress. Kitchenette, warm and sunny, fresh air, plunger coffee maker and luxurious tiled bathroom. Sleeps 1-3 comfortably.
+                    </div>
+                    <div style="position:absolute; left:1250px;" class="mobiletext">
+                        <b>AMENITIES</b><br>
+                        Desk <br>
+                        Room Service <br>
+                        Air Conditioning <br>
+                        Microwave <br>
+                        Toaster <br>
+                        Free International Power Adaptor <br>
+                        Non-Smoking <br>
+                        1 x Single bed <br>
+                        Super King Bed <br>
+                        Fridge - Bar Fridge <br>
+                        Cable/Satellite/Sky TV <br>
+                        Kitchenette <br>
+                        Iron/Ironing board <br>
+                        Telephone <br>
+                        Tea/Coffee making facilities <br>
+                        Free Wi-Fi <br>
+                        Shower 
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: 50px; text-align: center; padding-bottom: 80px;">
+                <b>Kitchen Triple</b>
+            </div>
+            <div id="singleroom">
+                <div id="singleroomimg">
+                    <a onclick="leftarrow(5,2)">
+                        <img src="./client/images/leftarrow.png">
+                    </a>
+                    <a style="left: 795px;" onclick="rightarrow(5,2)">
+                        <img src="./client/images/rightarrow.png">
+                    </a>
+                    <img id="5img0" src="./client/images/kitchentriple1.jpg" draggable="false" style="opacity: 1;">
+                    <img id="5img1" src="./client/images/kitchentriple2.jpg" draggable="false">
+                    <img id="5img2" src="./client/images/kitchentriple3.jpg" draggable="false">
+                    <div style="position: absolute; left: 920px; width: 300px;" class="mobiletext">
+                        Free Wi-Fi, free parking, double couch, cable/SKY TV + air- con/heat pump. Top hotel-class super king bed with Plush mattress, and single beds. Kitchen , dinning area. Balcony, fresh air, plunger coffee maker. Writing desk. Sleeps 1 - 3 comfortably.
+                    </div>
+                    <div style="position:absolute; left:1250px;" class="mobiletext">
+                        <b>AMENITIES</b><br>
+                        Desk <br>
+                        Room Service <br>
+                        Air Conditioning <br>
+                        Microwave <br>
+                        Toaster <br>
+                        Free International Power Adaptor <br>
+                        Dining Table <br>
+                        Non-Smoking <br>
+                        1 x Single bed <br>
+                        Complimentary tea and coffee <br>
+                        Super King Bed <br>
+                        Fridge - Bar Fridge <br>
+                        Cable/Satellite/Sky TV <br>
+                        Linen and Towels Provided <br>
+                        Iron/Ironing board <br>
+                        Telephone <br>
+                        Hairdryer <br>
+                        Free Wi-Fi <br>
+                        Shower <br>
+                        Cooktop
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: 50px; text-align: center; padding-bottom: 80px;">
+                <b>Family Apartment</b>
+            </div>
+            <div id="singleroom">
+                <div id="singleroomimg">
+                    <a onclick="leftarrow(6,5)">
+                        <img src="./client/images/leftarrow.png">
+                    </a>
+                    <a style="left: 795px;" onclick="rightarrow(6,5)">
+                        <img src="./client/images/rightarrow.png">
+                    </a>
+                    <img id="6img0" src="./client/images/familyapartment1.jpg" draggable="false" style="opacity: 1;">
+                    <img id="6img1" src="./client/images/familyapartment2.jpg" draggable="false">
+                    <img id="6img2" src="./client/images/familyapartment3.jpg" draggable="false">
+                    <img id="6img3" src="./client/images/familyapartment4.jpg" draggable="false">
+                    <img id="6img4" src="./client/images/familyapartment5.jpg" draggable="false">
+                    <img id="6img5" src="./client/images/familyapartment6.jpg" draggable="false">
+                    <div style="position: absolute; left: 920px; width: 300px;" class="mobiletext">
+                        Mezzanine, double glazed, two luxurious tiled bathrooms, free Wi-Fi, free parking. Two TVs + air-con/heat pump. Top hotel-class super king plus 2 single beds. Full kitchen. Balcony. Sleeps 1-4 comfortably.
+                    </div>
+                    <div style="position:absolute; left:1250px;" class="mobiletext">
+                        <b>AMENITIES</b><br>
+                        Desk <br>
+                        Room Service <br>
+                        Air Conditioning <br>
+                        Free International Power Adaptor <br>
+                        Full Kitchen <br>
+                        Non-Smoking <br>
+                        Complimentary tea and coffee <br>
+                        Super King Bed <br>
+                        Cable/Satellite/Sky 2 x TV <br>
+                        Linen and Towels Provided <br> 
+                        Heat Pump <br>
+                        Off Street Parking <br>
+                        Telephone <br>
+                        Hairdryer <br>
+                        Free Wi-Fi <br>
+                        4-5 x Single Beds <br>
+                        Double Glazing <br>
+                        2 x Shower
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: 50px; text-align: center; padding-bottom: 80px;">
+                <b>Split Level Apartment</b>
+            </div>
+            <div id="singleroom">
+                <div id="singleroomimg">
+                    <a onclick="leftarrow(7,5)">
+                        <img src="./client/images/leftarrow.png">
+                    </a>
+                    <a style="left: 795px;" onclick="rightarrow(7,5)">
+                        <img src="./client/images/rightarrow.png">
+                    </a>
+                    <img id="7img0" src="./client/images/split1.jpg" draggable="false" style="opacity: 1;">
+                    <img id="7img1" src="./client/images/split2.jpg" draggable="false">
+                    <img id="7img2" src="./client/images/split3.jpg" draggable="false">
+                    <img id="7img3" src="./client/images/split4.jpg" draggable="false">
+                    <img id="7img4" src="./client/images/split5.jpg" draggable="false">
+                    <img id="7img5" src="./client/images/split6.jpg" draggable="false">
+                    <div style="position: absolute; left: 920px; width: 300px;" class="mobiletext">
+                        Mezzanine, double glazed, two luxurious bathrooms, free Wi-Fi, free parking. Two TVs + air-con/heat pump. Top hotel-class super king plus 4 single beds. Full kitchen. Balcony, fresh air. Sleeps 1-6 comfortably.
+                    </div>
+                    <div style="position:absolute; left:1250px;" class="mobiletext">
+                        <b>AMENITIES</b><br>
+                        Desk <br>
+                        Room Service <br>
+                        Air Conditioning <br>
+                        Free International Power Adaptor <br>
+                        Full Kitchen <br>
+                        Non-Smoking <br>
+                        Complimentary tea and coffee <br>
+                        Super King Bed <br>
+                        Cable/Satellite/Sky 2 x TV <br>
+                        Linen and Towels Provided <br>
+                        Telephone <br>
+                        Hairdryer <br>
+                        Free Wi-Fi <br>
+                        2 x Single Beds <br>
+                        Double Glazing <br>
+                        2 x Shower 
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: 50px; text-align: center; padding-bottom: 80px;">
+                <b>Ground Floor Apartment</b>
+            </div>
+            <div id="singleroom">
+                <div id="singleroomimg">
+                    <a onclick="leftarrow(8,5)">
+                        <img src="./client/images/leftarrow.png">
+                    </a>
+                    <a style="left: 795px;" onclick="rightarrow(8,5)">
+                        <img src="./client/images/rightarrow.png">
+                    </a>
+                    <img id="8img0" src="./client/images/ground1.jpg" draggable="false" style="opacity: 1;">
+                    <img id="8img1" src="./client/images/ground2.jpg" draggable="false">
+                    <img id="8img2" src="./client/images/ground3.jpg" draggable="false">
+                    <img id="8img3" src="./client/images/ground4.jpg" draggable="false">
+                    <img id="8img4" src="./client/images/ground5.jpg" draggable="false">
+                    <img id="8img5" src="./client/images/ground6.jpg" draggable="false">
+                    <div style="position: absolute; left: 920px; width: 300px;" class="mobiletext">
+                        Free Wi-Fi, free parking. Two TVs. 1 queen plus 3 single beds. North facing (warm and sunny). Air-conditioned. Full kitchen. Two-seater couch. Luxurious tiled bathroom. Dining area and lounge. Sleeps 1 - 5 comfortably.
+                    </div>
+                    <div style="position:absolute; left:1250px;" class="mobiletext">
+                        <b>AMENITIES</b><br>
+                        Room Service <br>
+                        Air Conditioning <br>
+                        Toaster <br>
+                        Free International Power Adaptor <br>
+                        Full Kitchen <br>
+                        Dining Table <br>
+                        Non-Smoking <br>
+                        1 x Queen-Sized Bed <br>
+                        Complimentary tea and coffee <br>
+                        Cable/Satellite/Sky 2 x TV <br>
+                        Shower - separate <br>
+                        Linen and Towels Provided <br>
+                        North Facing (warm and sunny) <br>
+                        3 x Single Beds <br>
+                        Iron/Ironing board <br>
+                        Telephone <br>
+                        Hairdryer <br>
+                        Free Wi-Fi 
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: 50px; text-align: center; padding-bottom: 80px;">
+                <b>One Bedroom Suite</b>
+            </div>
+            <div id="singleroom">
+                <div id="singleroomimg">
+                    <a onclick="leftarrow(9,5)">
+                        <img src="./client/images/leftarrow.png">
+                    </a>
+                    <a style="left: 795px;" onclick="rightarrow(9,5)">
+                        <img src="./client/images/rightarrow.png">
+                    </a>
+                    <img id="9img0" src="./client/images/ground1.jpg" draggable="false" style="opacity: 1;">
+                    <img id="9img1" src="./client/images/ground2.jpg" draggable="false">
+                    <img id="9img2" src="./client/images/ground3.jpg" draggable="false">
+                    <img id="9img3" src="./client/images/ground4.jpg" draggable="false">
+                    <img id="9img4" src="./client/images/ground5.jpg" draggable="false">
+                    <img id="9img5" src="./client/images/ground6.jpg" draggable="false">
+                    <div style="position: absolute; left: 920px; width: 300px;" class="mobiletext">
+                        2  3
+                        Free, Wi-Fi, free parking, sofa. Two cable/SKY TVs + air-con/ heat pump. Top hotel-class super king + single beds. Full kitchen , dinning area. Large size bath, luxurious tiled bathroom. Sleeps 1-3 comfortably.
+                    </div>
+                    <div style="position:absolute; left:1250px;" class="mobiletext">
+                        <b>AMENITIES</b><br>
+                        Room Service <br>
+                        Air Conditioning <br>
+                        Free International Power Adaptor <br>
+                        Full Kitchen <br>
+                        Dining Table <br>
+                        Non-Smoking <br>
+                        1 x Single bed <br>
+                        Complimentary tea and coffee <br>
+                        Super King Bed <br>
+                        Cable/Satellite/Sky 2 x TV <br>
+                        Linen and Towels Provided <br>
+                        Iron/Ironing board <br>
+                        Telephone <br>
+                        Hairdryer <br>
+                        Free Wi-Fi <br>
+                        Shower 
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; line-height: 20px; padding-left: 12%; padding-right: 12%; padding-top: 5%; padding-bottom: 5%; font-weight: 600; background-color: rgb(0,0,0,0.1); margin-top: 10%; margin-bottom: 30px; font-size: 12px;">
+                Hotel Alert: <br>
+                <div style="font-weight: 500;">
+                    To provide a safe environment for everyone as per the ministry of Health guidelines, if you are feeling sick or have any symptoms of Covid19, including loss of smell, sore throat, shortness of breathing or close contact of confirmed Covid19 case, waiting on Covid19 test results or have visited the location of interest as per MOH website, please contact the hotel prior to your arrival to confirm check-in process. Thank you for your assistance. <br> 
+                    This property is taking steps to help protect the safety of guests and staff. All employees onsite have been fully vaccinated. <br>
+                    
+                    2% percent credit card fee. <br>
+                    
+                    Hotel parking is subject to availablity. <br>
+                    
+                    “Tampering with the smoke detectors or fire alarm system may cause a fire alarm activation and will result in a call out service charge of $250.00 +GST <br>
+                    and fire department service charge of $1000.00 + GST.  Please contact our front office before taking action by yourself if anything you are unsure of. ” <br> <br>
+
+                    Guests are required to show a photo ID and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply. <br> 
+
+                    A damage deposit of NZD 200 is required on arrival. This will be collected as a cash payment. You should be reimbursed on check-out. Your deposit will be refunded in full, in cash, subject to an inspection of the property.
+                </div>
+            </div>
+            <div class="mobiletext" style="color: white; text-align: center; background-color: #072343 ; line-height: 40px; padding: 20px;">
+                <B>Best Western</B> <br>
+                <div style="font-weight: 500;">112 Great South Road, Epsom, Auckland 1051, New Zealand <br></div>
+                <b> Freephone (NZ only) </b> <br>
+                <div style="font-weight: 500;">0508 899 699<br></div>
+                <b> Internationally </b> <br>
+                <div style="font-weight: 500;">+64 9520 5509<br>
+                <b> mobile </b> <br>
+                <div style="font-weight: 500;">+6421 198 9696<br>
+                <b> Email </b> <br>
+                <div style="font-weight: 500;">info@abf.net.nz<br>
+                Office hours:  Monday - Friday &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 7.30am - 10pm <br>
+                Saturday, Sunday & Public Holidays &nbsp &nbsp &nbsp 8am - 9pm <br>
+                Afterhours: Please contact the hotel directly <br>  </div>
+                <img src="./client/images/americanexpress.png" width="80px" style="padding: 10px;">
+                <img src="./client/images/visa.png" width="100px" style="padding: 10px;">
+                <img src="./client/images/mastercard.png" width="100px" style="padding: 10px;">
+                <img src="./client/images/freewifi.png" width="100px" style="padding: 10px;">
+                <img src="./client/images/sky.png" width="100px" style="padding: 10px;">
+                <img src="./client/images/dinersclub.png" width="100px" style="padding: 10px;">
+            </div>
+        </div>
+    </body>
+    <script src="./client/javascript.js"></script>
+</html> 

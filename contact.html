@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Best Western </title>
+        <link rel="icon"  href="./client/images/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="./client/css.css">
+    </head>
+    <body>
+        <div id="topvideo">
+            <div id="title">
+                BEST WESTERN <br> NEWMARKET
+            </div>
+            <div id="topimageothers">
+                <img id="0img0" src="./client/images/0.jpg" draggable="false" style="opacity: 1; ">
+                <img id="0img1" src="./client/images/1.jpg" draggable="false">
+                <img id="0img2" src="./client/images/2.jpg" draggable="false">
+                <img id="0img3" src="./client/images/3.jpg" draggable="false">
+                <img id="0img4" src="./client/images/4.jpg" draggable="false">
+                <img id="0img5" src="./client/images/5.jpg" draggable="false">
+                <img id="0img6" src="./client/images/6.jpg" draggable="false">
+                <img id="0img7" src="./client/images/7.jpg" draggable="false">
+            </div>
+            <a onclick="leftarrow(0,7)">
+                <img class="arrow" src="./client/images/leftarrow.png">
+            </a>
+            <a onclick="rightarrow(0,7)">
+                <img class="arrow" style="right:0 ;" src="./client/images/rightarrow.png">
+            </a>
+        </div>
+        <div id="mobilebar">
+            <div style="position: fixed;align-items: center; justify-content: center; display: inline-flex; width: 100%;">
+                <img src="./client/images/Best_Western_Logo_Horizontal-white.png" id="logomobile">
+            </div>
+            <a onclick="opennav()">
+                <img src="./client/images/3lineswhite.png" id="threelines">
+            </a>
+        </div>
+        <div class="showmobile" id="sidenav">
+            <a onclick="closenav()" style="position: absolute; top: 0; right: 25px; margin-left: 50px;">
+                <img src="./client/images/cross.png" style="width: 30px; height: 30px;">
+            </a>
+            <a href="/">
+                BEST WESTERN
+            </a>
+            <a href="/ourrooms">
+                OUR ROOMS
+            </a>
+            <a href="/newmarketlocation">
+                LOCATION
+            </a>
+            <a href="/hotelfacilities">
+                BREAKFAST
+            </a>
+            <a href="/events" style="color: #072343;">
+                CONFERENCE
+            </a>
+            <a href="/contact">
+                CONTACT
+            </a>
+        </div>
+        <div id="topBar" class="hidemobile">
+            <a style="width: 16%;">
+                <img id="topimage" src="./client/images/Best_Western_Logo_Horizontal-white.png" style="width: 250px; padding: 10px;">
+            </a>
+            <a href="/">
+                BEST WESTERN
+            </a>
+            <a href="/ourrooms">
+                OUR ROOMS
+            </a>
+            <a href="/newmarketlocation">
+                LOCATION
+            </a>
+            <a href="/hotelfacilities">
+                BREAKFAST
+            </a>
+            <a href="/events" style="color: rgb(150, 150, 150);" id="currentpage">
+                CONFERENCE
+            </a>
+            <a href="/contact">
+                CONTACT
+            </a>
+            <a href="https://www.bestwestern.com/en_US/book/auckland/hotel-rooms/best-western-newmarket-inn-suites/propertyCode.85460.html?ssob=IN8546043G&cid=IN8546043G:iws:85460:rooms" class="special-link" id="book">
+                BOOK
+            </a>
+        </div>
+        <a href="https://www.bestwestern.com/en_US/book/auckland/hotel-rooms/best-western-newmarket-inn-suites/propertyCode.85460.html?ssob=IN8546043G&cid=IN8546043G:iws:85460:rooms" class="showmobile" style="color: black; text-decoration: none; position: fixed; bottom: 0; width: 100%; background-color: #072343; z-index: 4; text-align: center; font-size: 30px; padding-top: 12px; padding-bottom: 12px; color: white;">
+            BOOK
+        </a>
+        <div id="notimage">
+            <div id="totaltitle">
+                <div id="title">
+                    CONTACT US <br> 
+                </div>
+            </div>
+            <div class="container">
+                <form id="fcf-form-id" class="fcf-form-class" method="POST" action="contact-form-process">
+                    <label for="Name">First Name</label>
+                    <input type="text" id="fname" name="Name" placeholder="Your name..">
+                    
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="fname">Email</label>
+                    <input type="text" id="fname" name="Email" placeholder="Your email..">
+                    
+                    <label for="lname">Contact Number</label>
+                    <input type="text" id="lname" name="contactnumber" placeholder="Your contact number..">
+                    
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+                <div style="text-align: center; line-height: 20px; padding-left: 12%; padding-right: 12%; padding-top: 5%; padding-bottom: 5%; font-weight: 600; background-color: rgb(0,0,0,0.1); margin-top: 10%; margin-bottom: 30px; font-size: 12px;">
+                    Hotel Alert: <br>
+                    <div style="font-weight: 500;">
+                        To provide a safe environment for everyone as per the ministry of Health guidelines, if you are feeling sick or have any symptoms of Covid19, including loss of smell, sore throat, shortness of breathing or close contact of confirmed Covid19 case, waiting on Covid19 test results or have visited the location of interest as per MOH website, please contact the hotel prior to your arrival to confirm check-in process. Thank you for your assistance. <br> 
+                        This property is taking steps to help protect the safety of guests and staff. All employees onsite have been fully vaccinated. <br>
+                        
+                        2% percent credit card fee. <br>
+                        
+                        Hotel parking is subject to availablity. <br>
+                        
+                        “Tampering with the smoke detectors or fire alarm system may cause a fire alarm activation and will result in a call out service charge of $250.00 +GST <br>
+                        and fire department service charge of $1000.00 + GST.  Please contact our front office before taking action by yourself if anything you are unsure of. ” <br> <br>
+    
+                        Guests are required to show a photo ID and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply. <br> 
+    
+                        A damage deposit of NZD 200 is required on arrival. This will be collected as a cash payment. You should be reimbursed on check-out. Your deposit will be refunded in full, in cash, subject to an inspection of the property.
+                    </div>
+                </div>
+                <div class="mobiletext" style="color: white; text-align: center; background-color: #072343 ; line-height: 40px; padding: 20px;">
+                    <B>Best Western</B> <br>
+                    <div style="font-weight: 500;">112 Great South Road, Epsom, Auckland 1051, New Zealand <br></div>
+                    <b> Freephone (NZ only) </b> <br>
+                    <div style="font-weight: 500;">0508 899 699<br></div>
+                    <b> Internationally </b> <br>
+                    <div style="font-weight: 500;">+64 9520 5509<br>
+                    <b> mobile </b> <br>
+                    <div style="font-weight: 500;">+6421 198 9696<br>
+                    <b> Email </b> <br>
+                    <div style="font-weight: 500;">info@abf.net.nz<br>
+                    Office hours:  Monday - Friday &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 7.30am - 10pm <br>
+                    Saturday, Sunday & Public Holidays &nbsp &nbsp &nbsp 8am - 9pm <br>
+                    Afterhours: Please contact the hotel directly <br>  </div>
+                    <img src="./client/images/americanexpress.png" width="80px" style="padding: 10px;">
+                    <img src="./client/images/visa.png" width="100px" style="padding: 10px;">
+                    <img src="./client/images/mastercard.png" width="100px" style="padding: 10px;">
+                    <img src="./client/images/freewifi.png" width="100px" style="padding: 10px;">
+                    <img src="./client/images/sky.png" width="100px" style="padding: 10px;">
+                    <img src="./client/images/dinersclub.png" width="100px" style="padding: 10px;">
+                </div>
+            </div>
+        </body>
+        <script src="./client/javascript.js"></script>
+</html> 
