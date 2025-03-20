@@ -3,42 +3,31 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Best Western </title>
-        <link rel="icon"  href="./client/images/favicon.ico" type="image/x-icon"/>
-        <link rel="stylesheet" href="./client/css.css">
+        <link rel="icon"  href="/images/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="/css.css">
     </head>
     <body>
         <div id="topvideo">
             <div id="title">
-                BEST WESTERN <br> NEWMARKET
+                BREAKFAST
             </div>
-            <div id="topimageothers">
-                <img id="0img0" src="./client/images/0.jpg" draggable="false" style="opacity: 1; ">
-                <img id="0img1" src="./client/images/1.jpg" draggable="false">
-                <img id="0img2" src="./client/images/2.jpg" draggable="false">
-                <img id="0img3" src="./client/images/3.jpg" draggable="false">
-                <img id="0img4" src="./client/images/4.jpg" draggable="false">
-                <img id="0img5" src="./client/images/5.jpg" draggable="false">
-                <img id="0img6" src="./client/images/6.jpg" draggable="false">
-                <img id="0img7" src="./client/images/7.jpg" draggable="false">
-            </div>
-            <a onclick="leftarrow(0,7)">
-                <img class="arrow" src="./client/images/leftarrow.png">
-            </a>
-            <a onclick="rightarrow(0,7)">
-                <img class="arrow" style="right:0 ;" src="./client/images/rightarrow.png">
-            </a>
+            <video autoplay muted loop>
+                <source src="https://storage.googleapis.com/bestwesternnewmarket.co.nz/client/images/whitemaison.mp4" type="video/mp4" >
+            </video>
         </div>
         <div id="mobilebar">
             <div style="position: fixed;align-items: center; justify-content: center; display: inline-flex; width: 100%;">
-                <img src="./client/images/Best_Western_Logo_Horizontal-white.png" id="logomobile">
+                <a href="/">
+                    <img src="/images/Best_Western_Logo_Horizontal-white.png" id="logomobile">
+                </a>
             </div>
             <a onclick="opennav()">
-                <img src="./client/images/3lineswhite.png" id="threelines">
+                <img src="/images/3lineswhite.png" id="threelines">
             </a>
         </div>
         <div class="showmobile" id="sidenav">
             <a onclick="closenav()" style="position: absolute; top: 0; right: 25px; margin-left: 50px;">
-                <img src="./client/images/cross.png" style="width: 30px; height: 30px;">
+                <img src="/images/cross.png" style="width: 30px; height: 30px;">
             </a>
             <a href="/">
                 BEST WESTERN
@@ -55,13 +44,16 @@
             <a href="/events">
                 CONFERENCE
             </a>
+            <a href="/news">
+                NEWS
+            </a>
             <a href="/contact">
                 CONTACT
             </a>
         </div>
         <div id="topBar" class="hidemobile">
-            <a style="width: 16%;">
-                <img id="topimage" src="./client/images/Best_Western_Logo_Horizontal-white.png" style="width: 250px; padding: 10px;">
+            <a style="width: 16%;" href="/">
+                <img id="topimage" src="/images/Best_Western_Logo_Horizontal-white.png" style="width: 250px; padding: 10px;">
             </a>
             <a href="/">
                 BEST WESTERN
@@ -78,6 +70,9 @@
             <a href="/events">
                 CONFERENCE
             </a>
+            <a href="/news">
+                NEWS
+            </a>
             <a href="/contact">
                 CONTACT
             </a>
@@ -90,25 +85,15 @@
         </a>
         <div id="notimage">
             <div id="totaltitle">
-                <div id="title">
-                    HOTEL FACILITIES <br> 
+                <div id="title" style="color: #072343">
+                    BREAKFAST <br> 
                 </div>
                 <div id="subtitle">
-                    FULL BUFFET <br> BREAKFAST <br>
+                    FULL BUFFET
                 </div>
             </div>
             <div class="mobiletext" style="text-align: center;">
-                Group lunch and dinner <br> <br>
-                
-               Reservatioin with reception <br> <br>
-                 
-               Daily hot dish selection <br>
-               Fresh fruit salad and yogurts <br>
-               continental breakfast delights <br>
-               spcialty coffee choices <br>
-               brevage selection: <br>
-               orange and apple juices, milk, and Tea <br>
-               <b>plus, a complimentary coffee to take with you</b>
+               <img style="width: 90%;" src="https://storage.googleapis.com/bestwesternnewmarket.co.nz/client/images/breakfast.png">
             </div>
             <div style="text-align: center; line-height: 20px; padding-left: 12%; padding-right: 12%; padding-top: 5%; padding-bottom: 5%; font-weight: 600; background-color: rgb(0,0,0,0.1); margin-top: 10%; margin-bottom: 30px; font-size: 12px;">
                 Hotel Alert: <br>
@@ -121,22 +106,35 @@
                     Hotel parking is subject to availablity. <br>
                     
                     “Tampering with the smoke detectors or fire alarm system may cause a fire alarm activation and will result in a call out service charge of $250.00 +GST <br>
-                    and fire department service charge of $1000.00 + GST.  Please contact our front office before taking action by yourself if anything you are unsure of. ”
+                    and fire department service charge of $1000.00 + GST.  Please contact our front office before taking action by yourself if anything you are unsure of. ” <br> <br>
+
+                    Guests are required to show a photo ID and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply. <br> 
+
+                    A damage deposit of NZD 200 is required on arrival. This will be collected as a cash payment. You should be reimbursed on check-out. Your deposit will be refunded in full, in cash, subject to an inspection of the property.
                 </div>
             </div>
-            <div class="mobiletext" style="color: white; text-align: center; background-color: rgb(0,0,0,0.7); line-height: 40px; padding: 20px;">
-                <B>Alexander Inn</B> <br>
-                <div style="font-weight: 500;">21 Alpers Avenue, Newmarket 1023, Auckland, New Zealand <br></div>
+            <div class="mobiletext" style="color: white; text-align: center; background-color: #072343 ; line-height: 40px; padding: 20px;">
+                <B>Best Western</B> <br>
+                <div style="font-weight: 500;">112 Great South Road, Epsom, Auckland 1051, New Zealand <br></div>
                 <b> Freephone (NZ only) </b> <br>
-                <div style="font-weight: 500;">0508 116 688 <br></div>
+                <div style="font-weight: 500;">0508 899 699<br></div>
                 <b> Internationally </b> <br>
-                <div style="font-weight: 500;">0064 9 281 2788 <br>
-                Office hours:  Monday - Friday &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 7am - 8pm <br>
-                Saturday, Sunday & Public Holidays &nbsp &nbsp &nbsp 8am - 7pm <br>
+                <div style="font-weight: 500;">+64 9520 5509<br>
+                <b> mobile </b> <br>
+                <div style="font-weight: 500;">+6421 198 9696<br>
+                <b> Email </b> <br>
+                <div style="font-weight: 500;">info@abf.net.nz<br>
+                Office hours:  Monday - Friday &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 7.30am - 10pm <br>
+                Saturday, Sunday & Public Holidays &nbsp &nbsp &nbsp 8am - 9pm <br>
                 Afterhours: Please contact the hotel directly <br>  </div>
-                <img src="./client/images/qualmark.png" width="211.25px" height="221.5">
+                <img src="/images/americanexpress.png" width="80px" style="padding: 10px;">
+                <img src="/images/visa.png" width="100px" style="padding: 10px;">
+                <img src="/images/mastercard.png" width="100px" style="padding: 10px;">
+                <img src="/images/freewifi.png" width="100px" style="padding: 10px;">
+                <img src="/images/sky.png" width="100px" style="padding: 10px;">
+                <img src="/images/dinersclub.png" width="100px" style="padding: 10px;">
             </div>
         </div>
     </body>
-    <script src="./client/javascript.js"></script>
+    <script src="/javascript.js"></script>
 </html> 

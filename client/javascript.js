@@ -28,9 +28,9 @@ window.addEventListener('scroll', function() {
                 topimage.classList.add('hidden'); 
                 logomobile.classList.add('hidden'); 
                 threelines.classList.add('hidden'); 
-                topimage.src = './client/images/Best_Western_Logo_Horizontal-1.png'; 
-                logomobile.src = './client/images/Best_Western_Logo_Horizontal-1.png'; 
-                threelines.src = './client/images/3linesblue.png'; 
+                topimage.src = '/images/Best_Western_Logo_Horizontal-1.png'; 
+                logomobile.src = '/images/Best_Western_Logo_Horizontal-1.png'; 
+                threelines.src = '/images/3linesblue.png'; 
                 topimage.classList.remove('hidden'); 
                 logomobile.classList.remove('hidden'); 
                 threelines.classList.remove('hidden'); 
@@ -68,9 +68,9 @@ window.addEventListener('scroll', function() {
                 topimage.classList.add('hidden'); 
                 logomobile.classList.add('hidden'); 
                 threelines.classList.add('hidden');
-                topimage.src = './client/images/Best_Western_Logo_Horizontal-white.png'; 
-                logomobile.src = './client/images/Best_Western_Logo_Horizontal-white.png'; 
-                threelines.src = './client/images/3lineswhite.png'; 
+                topimage.src = '/images/Best_Western_Logo_Horizontal-white.png'; 
+                logomobile.src = '/images/Best_Western_Logo_Horizontal-white.png'; 
+                threelines.src = '/images/3lineswhite.png'; 
                 topimage.classList.remove('hidden'); 
                 logomobile.classList.remove('hidden'); 
                 threelines.classList.remove('hidden'); 
