@@ -36,7 +36,7 @@ app.get('/news', function (req, res) {
   console.log("NEWS");
   res.sendFile(path.join(__dirname, 'client', 'news.html')); 
 });
-app.listen(PORT, function() {
+app.listen(PORT, '0.0.0.0', function() {
   console.log(`Server is running on port ${PORT}`);
 });
 // Import the necessary packages
