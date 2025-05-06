@@ -637,3 +637,19 @@ input[type=text], select, textarea {
     text-decoration: none;
     margin-top: auto;
 }
+.video-container {
+    position: relative;
+    width: 100%; 
+    height: 700px; 
+    overflow: hidden; 
+    background-color: #000; 
+    pointer-events: none;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
