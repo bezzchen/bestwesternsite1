@@ -639,11 +639,14 @@ input[type=text], select, textarea {
 }
 .video-container {
     position: relative;
-    width: 100%; 
-    height: 700px; 
-    overflow: hidden; 
-    background-color: #000; 
+    width: 2200px; 
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
     pointer-events: none;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
 }
 
 .video-container iframe {
