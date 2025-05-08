@@ -639,7 +639,7 @@ input[type=text], select, textarea {
 }
 .video-container {
     position: relative;
-    width: 2200px; 
+    width: 2400px; 
     height: 100%;
     overflow: hidden;
     background-color: #000;
